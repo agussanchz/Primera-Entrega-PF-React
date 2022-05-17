@@ -1,6 +1,9 @@
+//Importaciones
 import React from 'react'
 import { Card, Button } from 'react-bootstrap'
 
+//Exportacion de mi funcion ItemDetail, que es la encargada de recibir productos y
+// armar una card con sus caracteristicas
 export default function ItemDetail({item}) {
   return (
     <div>

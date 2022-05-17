@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Cart() {
   return (
-    <h1>Contenido del carrito</h1>
+    <h1>Carrito vacio :(</h1>
   )
 }

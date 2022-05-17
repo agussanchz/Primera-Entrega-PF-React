@@ -1,5 +1,6 @@
+//Importacio de react-router-dom
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-
+//Importaciones de views
 import Home from './views/Home/Home'
 import Products from './views/Products/Products'
 import Cart from './views/Cart/Cart'
@@ -7,8 +8,8 @@ import Navbar from './components/Navbar/Navbar';
 import Category from './views/Category/Category';
 import ProductId from './views/ProductId/ProductId'
 
-
-function App() {
+//RENDERIZADO DE MI APP
+function App() { 
   return (
     <BrowserRouter>
       <Navbar/>

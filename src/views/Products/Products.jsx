@@ -1,6 +1,9 @@
+//Importaciones
 import React from 'react'
 import ItemListContainer from '../../components/ItemListContainer/ItemListContainer'
 
+//Exportacion de mi funcion "views" Products, encargada de
+// renderizar mi lista de productos
 export default function Products() {
   return (
     <div className='Products'>

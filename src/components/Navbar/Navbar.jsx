@@ -1,7 +1,10 @@
+//Importaciones
 import React from 'react'
 import { Link } from 'react-router-dom' 
+//Exportaciones de mi funcion Navbar, donde creo un menu de navegacion
 export default function Navbar() {
   return (
+    //Creacion de mi header y menu de navegacion
     <header>
       <nav>
         <ul>
