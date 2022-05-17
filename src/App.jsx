@@ -6,7 +6,7 @@ import Products from './views/Products/Products'
 import Cart from './views/Cart/Cart'
 import Navbar from './components/Navbar/Navbar';
 import Category from './views/Category/Category';
-import ProductId from './views/ProductId/ProductId'
+import Item from './views/Item/Item';
 
 //RENDERIZADO DE MI APP
 function App() { 
@@ -18,7 +18,7 @@ function App() {
             <Route exact path="/" element={<Home/>}/>
             <Route exact path="/products" element={<Products/>}/>
             <Route exact path="/category/:categoryId" element={<Category/>}/>
-            <Route exact path="/productId/:productId" element={<ProductId/>}/>
+            <Route exact path="/item/:itemId" element={<Item/>}/>
             <Route exact path="/cart" element={<Cart/>}/>
         </Route>
       </Routes>  

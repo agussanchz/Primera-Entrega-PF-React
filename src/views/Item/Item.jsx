@@ -4,16 +4,17 @@ import ItemDetailContainer from '../../components/ItemDetailContainer/ItemDetail
 import { useParams } from 'react-router-dom'
 
 //Exportacion de mi funcion "views" ProductId
-export default function ProductId() {
+export default function Item() {
   //Aplicacion del hook useParams, para recibir los id propios de cada producto 
   // que se le aplica en el urlParams
-  const { productId } = useParams();
+  const { itemId } = useParams();
   
   return (
     //Le paso por props a mi componente ItemDetailContainer los id obtenidos
     <div>
-        <ItemDetailContainer productId={+productId}/>      
+        <ItemDetailContainer itemId={+itemId}/>      
     </div>
 
   )
 }
+ 

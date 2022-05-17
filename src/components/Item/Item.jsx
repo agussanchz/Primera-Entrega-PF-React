@@ -12,7 +12,7 @@ export default function Item({item}) {
     //Y aplicacion de una funcion onClick, que al hacerle click a la card, aplique
     //el estado "navigate" para moverse a la urlParams con un id unico
     <div className='ItemCard'>
-        <Card style={{ width: '18rem' }} onClick={() => navigate(`/productId/${item.id}`)}>
+        <Card style={{ width: '18rem' }} onClick={() => navigate(`/item/${item.id}`)}>
             <Card.Img variant="top" src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
