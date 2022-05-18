@@ -6,9 +6,9 @@ import { Card, Button } from 'react-bootstrap'
 // armar una card con sus caracteristicas
 export default function ItemDetail({item}) {
   return (
-    <div>
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+    <div className='item-card'>
+        <Card  className='card' style={{ width: '50rem'}}>
+            <Card.Img variant="top" src={item.img} />
             <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
                 <Card.Text>

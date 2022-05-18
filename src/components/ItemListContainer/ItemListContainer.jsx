@@ -28,7 +28,6 @@ export default function ItemListContainer({categoryId}) {
           </Col>
         </Row>
       </Container>
-
     </div>
   )
 }

@@ -6,8 +6,8 @@ import ItemListContainer from '../../components/ItemListContainer/ItemListContai
 export default function Home() {
   return (
     //Renderizado de mi pagina principal, donde llamo al componente ItemListContainer, donde me traera los productos
-    <div className='Home'>
-      <h1>Esta es la pagina de inicio</h1>
+    <div className='home'>
+      <h1 className='home__title'><span className='home__span__welcome'>Bievenidos a </span> <span className='home__span__name'>AsTecnologia</span> </h1>
       <ItemListContainer/>
     </div>
   )

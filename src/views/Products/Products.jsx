@@ -7,7 +7,7 @@ import ItemListContainer from '../../components/ItemListContainer/ItemListContai
 export default function Products() {
   return (
     <div className='Products'>
-      <h2>Lista de productos</h2>
+      <h2 className='title__products'>Lista de productos</h2>
       <ItemListContainer/>
     </div>
   )

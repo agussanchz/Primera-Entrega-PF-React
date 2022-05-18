@@ -10,10 +10,10 @@ export default function Item({item}) {
   return (
     //Card con las caracteristicas de los items recibidos por ItemListContainer
     //Y aplicacion de una funcion onClick, que al hacerle click a la card, aplique
-    //el estado "navigate" para moverse a la urlParams con un id unico
-    <div className='ItemCard'>
-        <Card style={{ width: '18rem' }} onClick={() => navigate(`/item/${item.id}`)}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+    //el hook"navigate" para moverse a la urlParams con un id unico
+    <div className='item-card'>
+        <Card className='card' style={{ width: '18rem' }} onClick={() => navigate(`/item/${item.id}`)}>
+            <Card.Img variant="top" src={item.img} />
             <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
                 <Button variant="primary">VER MAS</Button>
