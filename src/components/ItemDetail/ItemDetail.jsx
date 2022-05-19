@@ -7,7 +7,7 @@ import { Card, Button } from 'react-bootstrap'
 export default function ItemDetail({item}) {
   return (
     <div className='item-card'>
-        <Card  className='card' style={{ width: '50rem'}}>
+        <Card  className='card' style={{ width: '40rem'}}>
             <Card.Img variant="top" src={item.img} />
             <Card.Body>
                 <Card.Title>{item.title}</Card.Title>
