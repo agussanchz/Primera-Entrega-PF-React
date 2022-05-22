@@ -85,6 +85,7 @@
     flex-direction: row;
     margin-top: 20px;
 }
+
 .item-card {
     display: flex;
     justify-content: center;
@@ -95,4 +96,3 @@
 .item-card:hover{
     transform: scale(1.1);
 }
-
